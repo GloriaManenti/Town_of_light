@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Important note!: for my assignment I have created a website for promoting a game called "the town of lights" that I found on the internet, and which is going to be released on Feb 2016. Although the game has got its own website, here I have created a new one with new contents and format based on the requirements of assignment 2. 
+		The  photos and the video that I have used are the ones of this game. 
+		I have used twitter bootstrap css library beside the style.css file that I have created to customize some of the styles.
+		Regarding the SEO, I have used google keyword planner to find the most important related keywords and I have included them in keywords and description meta tags.
+		I have used iframes for embedding both the trailer video and the map.
+		I have also included a javascript file called "slideshowmaker.js" which changes the first image and accordingly creates a slideshow. 
+		 -->
+
+		<!-- Here I have added the title which is the name of the game -->		
+		<title>The Town of Lights</title>
+		
+		<!-- Here I have provided a link to the the scary! fonts:) I have employed (google API) -->
+		<link href='https://fonts.googleapis.com/css?family=Creepster' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Nosifer' rel='stylesheet' type='text/css'>
+
+		<!-- I have used twitter bootstrap css library to have a more web-responive behaviour! -->
+		<link rel="stylesheet" href="css/bootstrap.css">
+
+		<!-- Here I have provided a reference to the css file that I have created -->
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+		<!-- My name!! -->
+		<meta name="author" content="Gloria Manenti">
+
+		<!-- Here I have provided the keywords and description meta tags, to find the most important keywords, I have done a comprehensive research employing the google keyword planner tool-->
+		<meta name="keywords" content="videogames,videogame,best videogames,play video,video gamer,video site,game,play horror,pc horror,horor game,scariest game,best horror,indie horror game ">
+		<meta name="description" content="the videogame “Town of light” is a horror game and psychological thriller at the same time.
+		In this videogame, the player plays the role of an ex-patient who remembers her past in an asylum. The realistic setting and the scary atmosphere make this computer game one of the best and most innovative horror games.">
+
+		<!-- Here I have provided a link to the google map API-->
+		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+	</head>
+	<body>
+
+		<!-- I have put everything in the body in a container -->
+		<div class="container">
+			<div class="row"> 
+				<div class="col-md-12 text-right text-uppercase">
+					<h1 class=" mainTitle"> The Town of Light </h1>
+					<h4> A Psychological Horror Game</h4>
+				</div>
+			</div>
+
+		<!-- I just to add a bit of space in between -->
+			<div  class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>	
+
+		<!-- The slideshow div, I have created the javascript file "slideshowmaker.js" which is changing this image every 2.5 seconds -->
+			 <div id="slidShowDiv" class="row">
+				<div class="col-md-12">
+            		<img  id="imageSS" src="images/image1.png"  alt="slideShow Image">
+				</div>		
+			</div>
+
+		<!-- The story title div -->
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="sectionTitles"> The story </h2>
+				</div>		
+			</div>
+
+		<!-- The story text div -->
+			<div class="row">
+				<div class="col-md-12">
+					<p class="mainText"> The main character, Renee, comes back to the asylum after having been a hospitalized there in the past. The player has to help Renee in remembering her past while interacting with the environment and some other characters. There are four different possibile endings of the game, depending your choices while playing. </p>
+				</div>		
+			</div>
+
+		<!-- just to add a bit of space in between -->
+			<div  class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>	
+
+		<!-- Here I have used the iframe to embed a video -->
+			<div  class="row">
+				<div class="col-md-12">
+						<iframe width="100%" height="500px" frameborder="0" allowfullscreen
+						src="https://www.youtube.com/embed/TcPP6YuWw40">
+						</iframe>
+				</div>
+			</div>	
+
+		<!-- The idea title div -->
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="sectionTitles"> The Idea </h2>
+				</div>		
+			</div>
+
+		<!-- The idea text div -->
+			<div class="row">
+				<div class="col-md-12">
+					<p class="mainText"> The idea of the game was developed in 2011, when the developers found out that near their Italian hometown there had been an asylum, one of the biggest of all Italy. The place seemed immediately the perfect setting for a videogame, and the game ends up being also an historical documentary based on real happenings. The result of a very creative process, Town of light is an innovative game, which combines a personal experience told in first person with a realistic setting. Instead of being surrounded by monsters and dangers, the player experiences the same feelings of terror and despair patients felt inside the former psychiatric hospital a century ago. </p>
+				</div>		
+			</div>
+		
+		<!-- Here I have added two fixed images, I have used img-responsive class to have more web-responsive behaviour-->
+			<div class"row">
+				<div class="col-md-6">
+            		<img class="img-responsive" src="images/image1.png" alt="image1">
+				</div>
+				<div class="col-md-6">
+            		<img class="img-responsive" src="images/image2.png" alt="image2">
+				</div>
+            </div>
+
+		<!-- The idea title div -->
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="sectionTitles"> Reviewers say </h2>
+				</div>		
+			</div>
+
+		<!-- The reviewers say text div -->
+			<div class="row">
+				<div class="col-md-12">
+					<p class="mainText"> The game is very suggestive and raises aware of mental illnesses. The programmers wanted to raise awareness of depression and the result is not the traditional horror game, but it is much more than that: it is a complete gameplay experience that allows major changes in the main story and different possible endings. </p>
+				</div>		
+			</div>
+
+		<!-- Here I have added two fixed images, I have used img-responsive class to have more web-responsive behaviour-->
+			<div class"row">
+				<div class="col-md-4">
+            		<img class="img-responsive" src="images/image5.png" alt="image3">
+				</div>
+				<div class="col-md-4">
+            		<img class="img-responsive" src="images/image12.jpg" alt="image4">
+				</div>
+				<div class="col-md-4">
+            		<img class="img-responsive" src="images/image15.png"  alt="image5">
+				</div>
+            </div>
+
+        <!-- The about title div -->
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="sectionTitles"> About Producers </h2>
+				</div>		
+			</div>
+		
+		<!-- The about text div -->
+			<div class="row">
+				<div class="col-md-12">
+					<p class="mainText"> LKA.it is a computer graphics company which has been active in the areas of animation, rendering and game development for over ten years. The main office of LKA is located in florence, Italy </p>
+				</div>		
+			</div>
+
+		<!-- The visit us title div -->		
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="sectionTitles"> Visit us in our office </h2>
+				</div>		
+			</div>
+
+		<!-- The iframe including the google map -->		
+			 <div id="TheMap" class="row">
+				<div class="col-md-12">
+					<iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q= Via pisiello,18 Scandicci Italy&amp;ie=UTF8&amp;&amp;output=embed"></iframe>
+					<br/>
+				</div>		
+			</div>
+
+	    <!-- just to add more space-->	
+	        <div  class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>	
+	</div>
+
+		 <!--Here we have provided a link to the javascript file which makes the slide show-->	
+		<script type="text/javascript" src="js/slideShowMaker.js"></script>
+
+	</body>
+</html>
